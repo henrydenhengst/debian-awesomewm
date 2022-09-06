@@ -31,7 +31,7 @@ sudo nala install intel-microcode vim mc git curl btop awesome lightdm kitty fir
 sudo nala install nitrogen picom polybar scrot unclutter xsel sleck slock xbacklight volumeicon-alsa powerline fonts-powerline fonts-mononoki mpv vlc flameshot -y
 sudo nala install evince libreoffice strawberry inkscape gimp darktable lynx ghostwriter mdcat w3m syncthing handbrake pandoc pciutils pdf2svg -y
 sudo nala install flatpak kitty arp-scan asciinema bash-completion bat bettercap binutils btop coreutils crunch curl dbus dirb dmidecode exa ffmpeg file filezilla fish -y
-sudo nala install ghostscript git gnupg gparted gphoto2 hashcat hplip httrack iftop imagemagick jmtpfs keepassxc lshw lsof macchanger mc mtr nethogs nikto nmap p7zip -y
+sudo nala install ghostscript git gnupg gparted gphoto2 hashcat hplip httrack iftop imagemagick jmtpfs keepassxc lshw lsof mc mtr nethogs nikto nmap p7zip -y
 sudo nala install proxychains qbittorrent ranger remmina ripgrep rsync smartmontools sqlmap tmux tomb traceroute tre-command tree unrar unzip usbutils vbetool vnstat -y
 sudo nala install yadm youtube-dl yt-dlp zip zsh fonts-crosextra-carlito fonts-crosextra-caladea wget whatweb whois xclip -y
 sudo nala install ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi ufw -y
