@@ -34,7 +34,7 @@ sudo nala install evince libreoffice strawberry inkscape gimp darktable lynx gho
 sudo nala install flatpak kitty arp-scan asciinema bash-completion bat bettercap binutils btop coreutils crunch curl dbus dirb dmidecode exa ffmpeg file filezilla fish -y
 sudo nala install ghostscript git gnupg gparted gphoto2 hashcat hplip httrack iftop imagemagick jmtpfs keepassxc lshw lsof macchanger mc mtr nethogs nikto nmap p7zip -y
 sudo nala install proxychains qbittorrent ranger remmina ripgrep rsync smartmontools sqlmap tmux tomb traceroute tre-command tree unrar unzip usbutils vbetool vnstat -y
-sudo nala install rfkill bluez pulseaudio-module-bluetooth pulseaudio-module-gsettings pulseaudio-module-jack 
+sudo nala install rfkill bluez pulseaudio-module-bluetooth pulseaudio-module-gsettings pulseaudio-module-jack blueman -y
 sudo nala install yadm youtube-dl yt-dlp zip zsh fonts-crosextra-carlito fonts-crosextra-caladea wget whatweb whois xclip luarocks -y
 sudo nala install ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi ufw -y
 sudo nala install build-essential dkms linux-headers-$(uname -r) -y
