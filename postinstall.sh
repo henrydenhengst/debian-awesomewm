@@ -9,14 +9,14 @@
 #
 #==================================================================================
 #
-#          FILE:  template-bash.sh
+#          FILE:  postinstall.sh
 #
-#         USAGE:  ./template-bash.sh
+#         USAGE:  bash postinstall.sh
 #
-#   DESCRIPTION:
+#   DESCRIPTION:  Installation AwesomeWM on a clean vanilla Debian Sid (11)
 #
 #       OPTIONS:  ---
-#  REQUIREMENTS:  ---
+#  REQUIREMENTS:  a clean vanilla Debian Sid (11) installed, NO GUI
 #          BUGS:  ---
 #         NOTES:  ---
 #        AUTHOR:  Henry den Hengst , henrydenhengst@gmail.com
