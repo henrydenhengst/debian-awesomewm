@@ -13,10 +13,10 @@
 #
 #         USAGE:  bash postinstall.sh
 #
-#   DESCRIPTION:  Installation AwesomeWM on a clean vanilla Cinnamon Debian Sid (11)
+#   DESCRIPTION:  Installation AwesomeWM on a clean vanilla KDE Debian Sid (11)
 #
 #       OPTIONS:  ---
-#  REQUIREMENTS:  a clean vanilla Cinnamon Debian Sid (11) installed.
+#  REQUIREMENTS:  a clean vanilla KDE Debian Sid (11) installed.
 #          BUGS:  ---
 #         NOTES:  ---
 #        AUTHOR:  Henry den Hengst , henrydenhengst@gmail.com
