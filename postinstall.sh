@@ -39,6 +39,8 @@ sudo nala install ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav 
 sudo nala install firmware-linux firmware-linux-nonfree firmware-misc-nonfree -y
 sudo nala install qemu-kvm libvirt-daemon  bridge-utils virtinst libvirt-daemon-system -y
 sudo nala install virt-top libguestfs-tools libosinfo-bin  qemu-system virt-manager -y
+sudo nala install firmware-linux firmware-linux-nonfree firmware-misc-nonfree -y
+sudo nala install xdotool rename python3-pynvim python3-pip nodejs npm vagrant-libvirt -y
 sudo nala install build-essential dkms linux-headers-$(uname -r) -y
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub org.kde.kdenlive -y
