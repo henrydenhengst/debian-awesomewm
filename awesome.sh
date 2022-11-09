@@ -7,7 +7,7 @@
 # |_| |_|\___|_| |_|_|   \__, |  \__,_|\___|_| |_| |_| |_|\___|_| |_|\__, |___/\__|
 #                        |___/                                       |___/      
 #
-#==================================================================================
+#==============================================================================================================
 #
 #          FILE:  postinstall.sh
 #
@@ -16,7 +16,7 @@
 #   DESCRIPTION:  Installation AwesomeWM on a clean Debian Sid (11)
 #
 #       OPTIONS:  ---
-#  REQUIREMENTS:  a clean Debian Sid (11) installed.
+#  REQUIREMENTS:  a clean Debian Sid (11) installed, edit sources.list add contrib non-free remove cd-rom
 #          BUGS:  ---
 #         NOTES:  ---
 #        AUTHOR:  Henry den Hengst , henrydenhengst@gmail.com
@@ -24,11 +24,10 @@
 #       VERSION:  0.01
 #       CREATED:  01-01-2022
 #      REVISION:  ---
-#==================================================================================
+#===============================================================================================================
 #
 sudo cp sources.list /etc/apt/sources.list
-sudo cp -r nvim /home/henry/.config/nvim
-sudo cp -r awesome /home/henry/.config/awesome 
+sudo cp bashrc /home/henry/.bashrc
 sudo nala fetch
 sudo nala update
 sudo nala upgrade -y
@@ -47,4 +46,6 @@ flatpak install flathub io.lbry.lbry-app -y
 flatpak install flathub com.github.micahflee.torbrowser-launcher -y
 flatpak install flathub org.onionshare.OnionShare -y
 flatpak install flathub org.kde.kasts -y
+sudo cp -r nvim /home/henry/.config/nvim
+sudo cp -r awesome /home/henry/.config/awesome 
 sudo reboot
