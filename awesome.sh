@@ -26,6 +26,9 @@
 #      REVISION:  ---
 #==================================================================================
 #
+sudo cp sources.list /etc/apt/sources.list
+sudo cp -r nvim /home/henry/.config/nvim
+sudo cp -r awesome /home/henry/.config/awesome 
 sudo nala fetch
 sudo nala update
 sudo nala upgrade -y
