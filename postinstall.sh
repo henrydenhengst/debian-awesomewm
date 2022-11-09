@@ -54,6 +54,13 @@ flatpak install flathub com.github.Eloston.UngoogledChromium -y
 flatpak install flathub com.brave.Browser -y
 flatpak install flathub org.briarproject.Briar -y
 flatpak install flathub org.signal.Signal -y
+flatpak install flathub com.gitlab.newsflash -y
+flatpak install flathub io.lbry.lbry-app -y
+flatpak install flathub org.openshot.OpenShot -y
+flatpak install flathub com.github.micahflee.torbrowser-launcher -y
+flatpak install flathub org.onionshare.OnionShare -y
+flatpak install flathub org.kde.kasts -y
+
 cd ~
 mkdir git
 cd git
