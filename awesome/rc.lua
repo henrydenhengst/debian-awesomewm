@@ -67,7 +67,7 @@ beautiful.init(theme_path)
 local modkey      = "Mod4"
 local altkey      = "Mod1"
 local ctrlkey     = "Control"
-local terminal    = "kitty"
+local terminal    = "terminator"
 local browser     = "firefox"
 local editor      = os.getenv("geany") or "vim"
 local mediaplayer = "mpv"
@@ -758,7 +758,7 @@ awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("volumeicon")
 awful.spawn.with_shell("sleep 2 && conky -c $HOME/.config/conky/awesome/" .. "doom-one" .. "-01.conkyrc")
 awful.spawn.with_shell("flameshot")
-awful.spawn.with_shell("feh --randomize --bg-fill /home/henry/Afbeeldingen/wallpapers/*") -- feh sets random wallpaper
+awful.spawn.with_shell("feh --randomize --bg-fill ~/wallpapers/*") -- feh sets random wallpaper
 --awful.spawn.with_shell("xargs xwallpaper --stretch < ~/.cache/wall")
 --awful.spawn.with_shell("~/.fehbg") -- set last saved feh wallpaper
---awful.spawn.with_shell("nitrogen --set-zoom-fill --random /home/henry/Afbeeldingen/wallpapers/*") -- if you prefer nitrogen to feh/xwallpaper
+--awful.spawn.with_shell("nitrogen --set-zoom-fill --random ~/wallpapers/*") -- if you prefer nitrogen to feh/xwallpaper
