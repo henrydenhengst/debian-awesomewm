@@ -28,7 +28,7 @@
 #      REVISION:  ---
 #===============================================================================================================
 #
-git clone https://github.com/henrydenhengst/wallpapers.git
+git clone https://github.com/henrydenhengst/wallpapers.git ~/wallpapers
 cp bashrc ~/.bashrc
 sudo nala fetch
 sudo nala update
