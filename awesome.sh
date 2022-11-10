@@ -9,9 +9,9 @@
 #
 #==============================================================================================================
 #
-#          FILE:  postinstall.sh
+#          FILE:  awesome.sh
 #
-#         USAGE:  bash postinstall.sh
+#         USAGE:  bash awesome.sh
 #
 #   DESCRIPTION:  Installation AwesomeWM on a clean Debian Sid (11)
 #
@@ -24,7 +24,7 @@
 #        AUTHOR:  Henry den Hengst , henrydenhengst@gmail.com
 #       COMPANY:  private
 #       VERSION:  0.01
-#       CREATED:  01-01-2022
+#       CREATED:  10-11-2022
 #      REVISION:  ---
 #===============================================================================================================
 #
