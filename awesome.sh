@@ -47,8 +47,8 @@ flatpak install flathub io.lbry.lbry-app -y
 flatpak install flathub com.github.micahflee.torbrowser-launcher -y
 flatpak install flathub org.onionshare.OnionShare -y
 flatpak install flathub org.kde.kasts -y
-cp -r nvim /home/henry/.config/nvim
-cp -r awesome /home/henry/.config/awesome 
+cp -r nvim/ ~/.config/nvim
+cp -r awesome/ ~/.config/awesome 
 sudo ufw allow ssh
 sudo ufw enable
 sudo reboot
