@@ -9,11 +9,13 @@
 #
 #==============================================================================================================
 #
-#          FILE:  awesome.sh
+#          FILE:  postinstall.sh
 #
-#         USAGE:  bash awesome.sh
+#         USAGE:  bash postinstall.sh
 #
 #   DESCRIPTION:  Installation AwesomeWM on a clean Debian Sid (11)
+#
+#        STATUS:  TESTED
 #
 #       OPTIONS:  ---
 #  REQUIREMENTS:  a clean Debian Sid (11) weekly build 
@@ -23,7 +25,7 @@
 #         NOTES:  https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/weekly-builds/amd64/iso-dvd/firmware-testing-amd64-DVD-1.iso
 #        AUTHOR:  Henry den Hengst , henrydenhengst@gmail.com
 #       COMPANY:  private
-#       VERSION:  0.01
+#       VERSION:  0.02
 #       CREATED:  10-11-2022
 #      REVISION:  ---
 #===============================================================================================================
