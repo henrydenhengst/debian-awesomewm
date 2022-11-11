@@ -22,7 +22,18 @@
 #                 installed with nala and git, 
 #                 edit sources.list add contrib non-free remove cd-rom
 #          BUGS:  ---
-#         NOTES:  https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/weekly-builds/amd64/iso-dvd/firmware-testing-amd64-DVD-1.iso
+#         NOTES:  Install Debian clean, no desktop, with SSH using this ISO file
+#                 https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/weekly-builds/amd64/iso-dvd/firmware-testing-amd64-DVD-1.iso
+#                 Edit sources.list:
+#                 nano /etc/apt/sources.list
+#                 - put a hashtag in front of the cdrom option
+#                 - add 'contrib' and non-free' to all repos that don't
+#                 git clone this script:
+#                 git clone https://github.com/henrydenhengst/debian-awesomewm.git
+#                 go into the created directory
+#                 cd debian-awesomewm
+#                 run the postinstall script
+#                 bash postinstall.sh
 #        AUTHOR:  Henry den Hengst , henrydenhengst@gmail.com
 #       COMPANY:  private
 #       VERSION:  0.02
