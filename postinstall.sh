@@ -7,64 +7,48 @@
 # |_| |_|\___|_| |_|_|   \__, |  \__,_|\___|_| |_| |_| |_|\___|_| |_|\__, |___/\__|
 #                        |___/                                       |___/      
 #
-#==================================================================================
+#==============================================================================================================
 #
-#          FILE:  postinstall.sh
+#          FILE:  awesome.sh
 #
-#         USAGE:  bash postinstall.sh
+#         USAGE:  bash awesome.sh
 #
-#   DESCRIPTION:  Installation AwesomeWM on a clean vanilla KDE Debian Sid (11)
+#   DESCRIPTION:  Installation AwesomeWM on a clean Debian Sid (11)
 #
 #       OPTIONS:  ---
-#  REQUIREMENTS:  a clean vanilla KDE Debian Sid (11) installed.
+#  REQUIREMENTS:  a clean Debian Sid (11) weekly build 
+#                 installed with nala and git, 
+#                 edit sources.list add contrib non-free remove cd-rom
 #          BUGS:  ---
-#         NOTES:  ---
+#         NOTES:  https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/weekly-builds/amd64/iso-dvd/firmware-testing-amd64-DVD-1.iso
 #        AUTHOR:  Henry den Hengst , henrydenhengst@gmail.com
 #       COMPANY:  private
 #       VERSION:  0.01
-#       CREATED:  01-01-2022
+#       CREATED:  10-11-2022
 #      REVISION:  ---
-#==================================================================================
+#===============================================================================================================
 #
+git clone https://github.com/henrydenhengst/wallpapers.git ~/wallpapers
+cp bashrc ~/.bashrc
+mkdir -p ~/.config && cp -r nvim ~/.config/nvim && cp -r awesome/ ~/.config/awesome 
 sudo nala fetch
 sudo nala update
-sudo nala install intel-microcode firmware-linux neovim mc git curl btop awesome kitty geany feh neofetch filezilla arandr conky suckless-tools mpc123 mpd -y
-sudo nala install nitrogen firmware-iwlwifi picom polybar scrot unclutter xsel xbacklight volumeicon-alsa powerline fonts-powerline fonts-mononoki mpv vlc flameshot -y
-sudo nala install evince libreoffice strawberry inkscape gimp darktable lynx ghostwriter w3m syncthing handbrake pandoc pciutils pdf2svg pulseaudio alsa-utils -y
-sudo nala install flatpak kitty arp-scan asciinema bash-completion bat binutils btop coreutils crunch curl dbus dirb dmidecode exa ffmpeg file filezilla fish -y
-sudo nala install ghostscript git gnupg gparted gphoto2 hashcat hplip httrack iftop imagemagick jmtpfs keepassxc lshw lsof mc mtr nethogs nikto nmap p7zip -y
-sudo nala install proxychains qbittorrent ranger remmina ripgrep rsync smartmontools sqlmap tmux tomb traceroute tre-command tree unrar unzip usbutils vbetool vnstat -y
-sudo nala install yadm youtube-dl yt-dlp zip zsh fonts-crosextra-carlito fonts-crosextra-caladea wget whatweb whois xclip luarocks xdotool variey -y
-sudo nala install ttf-mscorefonts-installer libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi ufw terminator -y
-sudo nala install firmware-linux firmware-linux-nonfree firmware-misc-nonfree -y
-sudo nala install qemu-kvm libvirt-daemon  bridge-utils virtinst libvirt-daemon-system -y
-sudo nala install virt-top libguestfs-tools libosinfo-bin  qemu-system virt-manager -y
-sudo nala install firmware-linux firmware-linux-nonfree firmware-misc-nonfree printer-driver-cups-pdf lolcat toilet geany-plugins-y
-sudo nala install xdotool rename python3-pynvim python3-pip nodejs npm vagrant-libvirt tor ncal cheese printer-driver-all y
+sudo nala upgrade -y
+sudo nala install alsa-utils arandr arp-scan asciinema awesome bash-completion bat binutils btop cheese conky coreutils crunch curl dbus dirb dmidecode evince exa feh ffmpeg file firefox-esr firmware-iwlwifi firmware-linux firmware-misc-nonfree fish flameshot flatpak fonts-crosextra-caladea fonts-crosextra-carlito fonts-mononoki fonts-powerline geany geany-plugins ghostscript git gnupg gparted gphoto2 gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi hashcat hplip httrack iftop imagemagick intel-microcode jmtpfs keepassxc kitty libavcodec-extra lolcat lshw lsof luarocks lynx mc mpc123 mpd mpv mtr ncal neofetch neovim nethogs nikto nitrogen nmap nodejs npm p7zip pandoc pciutils pdf2svg picom polybar powerline printer-driver-all printer-driver-cups-pdf proxychains pulseaudio python3-pip python3-pynvim ranger remmina rename ripgrep rsync scrot sddm smartmontools sqlmap suckless-tools terminator tmux toilet tomb tor traceroute tre-command tree ttf-mscorefonts-installer ufw unclutter unrar unzip usbutils vbetool vlc vnstat volumeicon-alsa w3m wget whatweb whois xbacklight xclip xdotool xsel yadm youtube-dl yt-dlp zip zsh -y
 sudo nala install build-essential dkms linux-headers-$(uname -r) -y
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub org.kde.kdenlive -y
-flatpak install flathub com.github.iwalton3.jellyfin-media-player -y
-flatpak install flathub com.obsproject.Studio -y
+sudo systemctl enable sddm
 flatpak install flathub io.freetubeapp.FreeTube -y
 flatpak install flathub org.jitsi.jitsi-meet -y
-flatpak install flathub org.blender.Blender -y
-flatpak install flathub io.gitlab.librewolf-community -y
-flatpak install flathub com.github.Eloston.UngoogledChromium -y
+# flatpak install flathub io.gitlab.librewolf-community -y
+# flatpak install flathub com.github.Eloston.UngoogledChromium -y
 flatpak install flathub com.brave.Browser -y
 flatpak install flathub org.briarproject.Briar -y
 flatpak install flathub org.signal.Signal -y
-flatpak install flathub com.gitlab.newsflash -y
 flatpak install flathub io.lbry.lbry-app -y
-flatpak install flathub org.openshot.OpenShot -y
 flatpak install flathub com.github.micahflee.torbrowser-launcher -y
 flatpak install flathub org.onionshare.OnionShare -y
 flatpak install flathub org.kde.kasts -y
-
-cd ~
-mkdir git
-cd git
-git clone https://github.com/henrydenhengst/mynixos.git
-git clone https://github.com/henrydenhengst/debian-awesomewm.git
-cd ~
-sudo nala autoremove -y
+sudo ufw allow ssh
+sudo ufw enable
+sudo reboot
