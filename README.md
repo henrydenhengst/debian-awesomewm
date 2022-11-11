@@ -10,6 +10,10 @@ Edit sources.list:
 - put a hashtag in front of the cdrom option
 - add 'contrib' and non-free' to all repos that don't
 
+Install 'nala' and 'git' to make the operation work.
+
+`sudo apt install nala git`
+
 Git clone this script:
 
 `git clone https://github.com/henrydenhengst/debian-awesomewm.git`
