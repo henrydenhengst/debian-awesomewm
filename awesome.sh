@@ -30,8 +30,7 @@
 #
 git clone https://github.com/henrydenhengst/wallpapers.git ~/wallpapers
 cp bashrc ~/.bashrc
-cp -r nvim/ ~/.config/nvim
-cp -r awesome/ ~/.config/awesome 
+mkdir -p ~/.config && cp -r nvim ~/.config/nvim && cp -r awesome/ ~/.config/awesome 
 sudo nala fetch
 sudo nala update
 sudo nala upgrade -y
