@@ -43,7 +43,7 @@ If not sure try Y. If Y failed, try N.
 
 y) Yes (default)
 
-rclone mount onedrive: /home/myname/onedrive 
+rclone mount onedrive: /home/myname/onedrive --vfs-cache-mode=writes
 in combination with crontab (surpress output)
 
 for rclone mount to emulate a local file system, sometimes need to use the rclone vfs file cache.
