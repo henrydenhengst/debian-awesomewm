@@ -1,6 +1,6 @@
 sudo apt install nala
 
-sudo nala install arp-scan asciinema bash-completion bat binutils btop coreutils curl dmidecode evince exa feh ffmpeg file fish flameshot fonts-crosextra-caladea fonts-crosextra-carlito fonts-mononoki fonts-powerline geany ghostscript git gnupg gparted hashcat httrack iftop imagemagick keepassxc lolcat lshw lsof lynx mc mpc123 mtr ncal neofetch nethogs nmap p7zip pandoc pciutils pdf2svg powerline printer-driver-all printer-driver-cups-pdf proxychains ranger remmina rename ripgrep rsync smartmontools suckless-tools terminator tmux toilet tomb traceroute tre-command tree ttf-mscorefonts-installer ufw unrar unzip usbutils vlc w3m wget whois zip zsh -y
+sudo nala install unattended-upgrades arp-scan asciinema bash-completion bat binutils btop coreutils curl dmidecode evince exa feh ffmpeg file fish flameshot fonts-crosextra-caladea fonts-crosextra-carlito fonts-mononoki fonts-powerline geany ghostscript git gnupg gparted hashcat httrack iftop imagemagick keepassxc lolcat lshw lsof lynx mc mpc123 mtr ncal neofetch nethogs nmap p7zip pandoc pciutils pdf2svg powerline printer-driver-all printer-driver-cups-pdf proxychains ranger remmina rename ripgrep rsync smartmontools suckless-tools terminator tmux toilet tomb traceroute tre-command tree ttf-mscorefonts-installer ufw unrar unzip usbutils vlc w3m wget whois zip zsh -y
 
 REBOOT
 
