@@ -78,3 +78,12 @@ another gui is https://kapitainsky.github.io/RcloneBrowser/
 
 rclone config file 
 to find the rclone.conf and copy that to the laptop
+
+
+sudo nano /etc/apt/apt.conf.d/20auto-upgrades
+
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Unattended-Upgrade "1";
+APT::Periodic::AutocleanInterval "7";
+
+sudo mintupdate-automation upgrade enable
