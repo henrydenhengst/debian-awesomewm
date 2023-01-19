@@ -46,16 +46,21 @@ y) Yes (default)
 VOORBEELD:
 rclone mount onedrive: /home/myname/onedrive --vfs-cache-mode=writes
 
+Directory aanmaken!!! 
+cd ~
+mkdir onedrive
+
 LAPTOP 1:
 rclone mount onedrive: /home/smaak/onedrive --vfs-cache-mode=writes
 
 LAPTOP 2:
 rclone mount onedrive: /home/dc-kantine/onedrive --vfs-cache-mode=writes
 
-Maak hier een mount-onedrive.sh van en plaats dit bestanden hier /bin
+Maak hier een 1drive.sh van en plaats dit bestanden hier /bin
+
 Ga naar "systeeminstellingen"
 "Opstarttoepassing"
-"Opstarttoepassing toevoegen", verkennen, /bin/mount-onedrive.sh toevoegen
+"Opstarttoepassing toevoegen", verkennen, /bin/1drive.sh toevoegen
 
 
 
