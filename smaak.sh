@@ -6,6 +6,8 @@ REBOOT
 
 sudo mintupdate-automation upgrade enable
 
+sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
+
 
 sudo -v ; curl https://rclone.org/install.sh | sudo bash
 
