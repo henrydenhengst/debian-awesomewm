@@ -6,7 +6,19 @@ sudo nala update
 
 sudo nala upgrade -y
 
+# Basic
 sudo nala install clamav clamav-daemon clamtk unattended-upgrades arp-scan asciinema bash-completion bat binutils btop coreutils curl dmidecode evince exa feh ffmpeg file fish flameshot fonts-crosextra-caladea fonts-crosextra-carlito fonts-mononoki fonts-powerline geany ghostscript git gnupg gparted hashcat httrack iftop imagemagick keepassxc lolcat lshw lsof lynx mc mpc123 mtr ncal neofetch nethogs nmap p7zip pandoc pciutils pdf2svg powerline printer-driver-all printer-driver-cups-pdf proxychains ranger remmina rename ripgrep rsync smartmontools suckless-tools terminator tmux toilet tomb traceroute tre-command tree ttf-mscorefonts-installer ufw unrar unzip usbutils vlc w3m wget whois zip zsh -y
+# Extra
+sudo nala install aria2 asciinema autojump boxes bpytop buku chafa cloc cmatrix cmus colordiff ctop ddgr dua-cli duf entr exa exiftool libposix-strptime-perl libencode-hanextra-perl libpod2-base-perl fdupes figlet fortune fzf ghostwriter glances htop nmon hub hyperfine icdiff iftop iptraf mcedit jq just khal micro most mutt ncdu neofetch lolcat toilet newsboat ranger rig ripgrep rsync sl taskwarrior telnet thefuck tldr tmate toilet tree wordgrinder yt-dlp zoxide -y
+# Flatpak
+flatpak install flathub org.strawberrymusicplayer.strawberry
+flatpak install flathub org.gimp.GIMP
+flatpak install flathub org.kde.plasmatube
+flatpak install flathub org.kde.audiotube
+flatpak install flathub org.signal.Signal
+flatpak install flathub io.github.shiftey.Desktop
+flatpak install flathub io.freetubeapp.FreeTube
+flatpak install flathub com.brave.Browser
 
 REBOOT
 
